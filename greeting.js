@@ -25,7 +25,7 @@ function askForName(text) {
 function paintName(text) {
     form.classList.remove(SHOWING_CN);
     greeting.classList.add(SHOWING_CN);
-    greeting.innerText = `Hello ${text}`;
+    greeting.innerText = `Good Day ${text}`;
 }
 
 function loadName() {
@@ -39,7 +39,7 @@ function loadName() {
 
 
 function init() {
-    loadName()
+    loadName();
 }
 
 init()
